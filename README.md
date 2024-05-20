@@ -1,9 +1,13 @@
 isnum
 
-# Installation
+# Compile Install
 `gfortran -o isnum isnum.f90` 
 
 `mv isnum /usr/loca/bin/`
+
+## Install precompiled
+[isnum](https://github.com/rizitis/isnum/releases)
+
 
 ## Explanation:
 
