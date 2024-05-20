@@ -1,5 +1,9 @@
 isnum
 
+![](https://github.com/rizitis/isnum/blob/main/isnum_2.gif)
+
+
+
 # Compile Install
 `gfortran -o isnum isnum.f90` 
 
