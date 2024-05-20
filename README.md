@@ -9,9 +9,12 @@ isnum
 
 `mv isnum /usr/loca/bin/`
 
+`chmod +x /usr/local/isnum`
+
 ## Install precompiled
 [isnum](https://github.com/rizitis/isnum/releases)
 
+`chmod +x /usr/local/isnum`
 
 ## Explanation:
 
