@@ -32,3 +32,7 @@ isnum
         It prompts the user for input and reads the input string.
         It trims the input string and calls is_numeric to check if it is a number.
         Based on the result, it prints an appropriate message.
+
+
+### USE
+Use it for satisfy any action depents insum...
