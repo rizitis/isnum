@@ -1,3 +1,16 @@
+!*********************************************************************
+! Program: CheckIfNumeric
+! Author: Anagnostakis Ioannis
+! Date: 21/05/2024
+! Description:
+!   This program checks if a given input string is a valid number.
+!   It reads a string from the user, and uses a function from a module
+!   to determine if the string can be interpreted as a numeric value.
+!   If the string is numeric, the program prints a confirmation message.
+!   Otherwise, it indicates that the string is not a valid number.
+!   Use it for satisfy any app depent isnum ...
+!*********************************************************************
+
 module Utilities
     implicit none
 contains
@@ -35,4 +48,3 @@ program CheckIfNumeric
         print *, "The input is not a valid number."
     end if
 end program CheckIfNumeric
-
