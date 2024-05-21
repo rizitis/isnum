@@ -1,6 +1,6 @@
 isnum
 
-![](https://github.com/rizitis/isnum/blob/main/isnum_2.gif)
+![](https://github.com/rizitis/isnum/blob/main/isnum_double_size.gif)
 
 
 
