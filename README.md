@@ -5,7 +5,7 @@ isnum
 
 
 # Compile Install
-`gfortran -o isnum isnum.f90` 
+`gfortran -o isnum CheckIfNumeric.f90` 
 
 `mv isnum /usr/loca/bin/`
 
@@ -18,21 +18,14 @@ isnum
 
 ## Explanation:
 
-    Module Definition:
-        Utilities module contains the is_numeric function to encapsulate reusable code.
-        The is_numeric function checks if the input string is a valid number.
+    Check Number of Arguments:
+        The program checks if exactly one argument is provided. If not, it prints the usage message and stops.
 
-    Function Logic:
-        is_numeric reads the input string and attempts to convert it to a real number.
-        If the conversion is successful (ios == 0), the function returns .true..
-        If the conversion fails, the function returns .false..
+    Retrieve the Command-Line Argument:
+        The program uses get_command_argument(1, input_str) to get the first command-line argument (the string to check).
 
-    Main Program:
-        The main program CheckIfNumeric uses the Utilities module.
-        It prompts the user for input and reads the input string.
-        It trims the input string and calls is_numeric to check if it is a number.
-        Based on the result, it prints an appropriate message.
-
+    Use the Retrieved Argument:
+        The retrieved argument is then passed to the is_numeric function to check if it is a valid number.
 
 ### USE
 Use it for satisfy any action depents isnum...
